@@ -48,6 +48,7 @@ public class Main {
         int c = scanner.nextInt();
         System.out.println("Resultat  (a+b+c)/3 = " + (a+b+c)/3);
         System.out.println("Resultat  a*b*c = " + (a*b*c));
+        System.out.println("Resultat  a*b*c = " + (a/b/c));
     }
 }
 
