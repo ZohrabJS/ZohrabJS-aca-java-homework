@@ -101,5 +101,92 @@ public class DAY5 {
         }
 
          */
+        //Task 12
+//        System.out.println(" Enter first number:");
+//        double  a=scanner.nextDouble();
+//        System.out.println("Enter second number:");
+//        double b=scanner.nextDouble();
+//        System.out.println("Enter an operator (+, -, *, /):");
+//        char str=scanner.next().charAt(0);
+//
+//        switch (str){
+//            case '+':
+//                System.out.println(a+"+"+b+":"+(a+b));
+//                break;
+//            case'-':
+//                System.out.println(a+"-"+b+":"+(a-b));
+//                break;
+//            case'*':
+//                System.out.println(a+"*"+b+":"+(a*b));
+//                break;
+//            case'/':
+//                System.out.println(a+"/"+b+":"+(a/b));
+//                break;
+//            default:
+//                System.out.println("error message to user");
+//                break;
+//
+//
+//        }
+        //Task 13
+//        System.out.println("Input Week Day number");
+//        int day=scanner.nextInt();
+//        switch (day){
+//            case 1:
+//                System.out.println("Sunday");
+//                break;
+//            case 2:
+//                System.out.println("Monday");
+//                break;
+//            case 3:
+//                System.out.println("Tuesday");
+//                break;
+//            case 4:
+//                System.out.println("Wednesday");
+//                break;
+//            case 5:
+//                System.out.println("Thursday");
+//                break;
+//            case 6:
+//                System.out.println("Friday");
+//                break;
+//            case 7:
+//                System.out.println("Saturday");
+//                break;
+//            default:
+//                System.out.println("Error variable");
+//                break;
+//
+//        }
+        //Task 14
+
+//        System.out.println("Quiz score:");
+//        int a= scanner.nextInt();
+//        System.out.println("Mid-term score:");
+//        int b= scanner.nextInt();
+//        System.out.println("Final score:");
+//        int c=scanner.nextInt();
+//        int mij=((a+b+c)/3)/20;
+//        switch (mij){
+//            case 1:
+//                System.out.println("Your grade is F.");
+//                break;
+//            case 2:
+//                System.out.println("Your grade is C.");
+//                break;
+//            case 3:
+//                System.out.println("Your grade is B.");
+//                break;
+//            case 4:
+//                System.out.println("Your grade is A.");
+//                break;
+//            default:
+//                System.out.println("Error");
+//                break;
+//
+//        }
+
+
+
     }
 }

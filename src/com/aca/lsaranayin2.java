@@ -95,11 +95,32 @@ public class lsaranayin2 {
 //            System.out.println(fact);
 //            fact*=i;
 //        }
+//
+//        while (true){
+//            System.out.println("first");
+//            while (true){
+//                System.out.println("second");
+//                break;
+//            }
+//            break;
+//        }
+//
+//        first:
+//        while (true){
+//            System.out.println("first");
+//            second:
+//            while (true){
+//                System.out.println("second");
+//                break first;
+//            }
+//        }
 
-        System.out.println("input number");
-        int
-
-
+        for (int i = 1; i <=10 ; i++) {
+            if (i==7){
+                continue;
+            }
+            System.out.println(i);
+        }
 
 
 
