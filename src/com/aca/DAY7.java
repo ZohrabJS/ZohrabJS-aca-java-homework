@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class DAY7 {
     public static void main(String[] args) {
-        Scanner scanner =new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         //Task 1
 //        System.out.println("Input a");
 //        int a =scanner.nextInt();
@@ -196,67 +196,63 @@ public class DAY7 {
 //            System.out.println();
 //        }
 
-            //Task 16
-        System.out.println("Input number");
-        int n=scanner.nextInt();
-        System.out.println("Input Variant a,b,c or d");
-        char variant=scanner.next().charAt(0);
-        switch (variant){
-            case 'a':
-                for (int i = 0; i <= n; i++) {
-                    for (int j = 0; j <i ; j++) {
-                        System.out.print("*");
-                    }
-                    System.out.println();
-                }
-                break;
-            case 'b':
-                for (int i = 0; i <= n; i++) {
-                    for (int j = 0; j+i<n ; j++) {
-                        System.out.print("*");
-                    }
-                    System.out.println();
-                }
-                break;
-            case'c':
-                for (int i = 0; i <= n; i++) {
-                    for (int j = 0; j <n ; j++) {
-                        if(j<i){
-                            System.out.print(" ");
-                        }
-                        else {
-                            System.out.print("*");
-                        }
-                    }
-                    System.out.println();
-                }
-                break;
-            case 'd':
-                for (int i = 0; i <= n; i++) {
-                    for (int j = 0; j <n ; j++) {
-                        if(i+j>=n){
-                            System.out.print("*");
-                        }
-                        else {
-                            System.out.print(" ");
-                        }
-                    }
-                    System.out.println();
-                }
-                break;
-            default:
-                System.out.println("error");
-                break;
-
-        }
+        //Task 16
+//        System.out.println("Input number");
+//        int n = scanner.nextInt();
+//        System.out.println("Input Variant a,b,c or d");
+//        char variant = scanner.next().charAt(0);
+//        switch (variant) {
+//            case 'a':
+//                for (int i = 0; i <= n; i++) {
+//                    for (int j = 0; j < i; j++) {
+//                        System.out.print("*");
+//                    }
+//                    System.out.println();
+//                }
+//                break;
+//            case 'b':
+//                for (int i = 0; i <= n; i++) {
+//                    for (int j = 0; j + i < n; j++) {
+//                        System.out.print("*");
+//                    }
+//                    System.out.println();
+//                }
+//                break;
+//            case 'c':
+//                for (int i = 0; i <= n; i++) {
+//                    for (int j = 0; j < n; j++) {
+//                        if (j < i) {
+//                            System.out.print(" ");
+//                        } else {
+//                            System.out.print("*");
+//                        }
+//                    }
+//                    System.out.println();
+//                }
+//                break;
+//            case 'd':
+//                for (int i = 0; i <= n; i++) {
+//                    for (int j = 0; j < n; j++) {
+//                        if (i + j >= n) {
+//                            System.out.print("*");
+//                        } else {
+//                            System.out.print(" ");
+//                        }
+//                    }
+//                    System.out.println();
+//                }
+//                break;
+//            default:
+//                System.out.println("error");
+//                break;
+//
+//        }
 
 
-
-
+//
 
 
     }
-
 
 
 }
