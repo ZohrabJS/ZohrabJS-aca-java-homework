@@ -62,16 +62,8 @@ public class DAY8 {
 //        System.out.println();
 //        boolean num=true;
 //        for (int i = 1; i <size ; i++) {
-//            for (int j = 0; j < i; j++) {
-//                if(arr[j]<arr[i]){
-//                    num=true;
-//                }else{
-//                    num=false;
-//                    break;
-//                }
-//            }
-//            if (num) {
-//                System.out.println(arr[i]+" ");
+//            if (arr[i]>arr[i-1]){
+//                System.out.println(arr[i]);
 //            }
 //        }
 
@@ -86,6 +78,10 @@ public class DAY8 {
 //        System.out.println();
 //        for (int i =1 ; i <size ; i++) {
 //            if(arr[i]>0 && arr[i-1]>0){
+//                System.out.println(arr[i-1]+" "+arr[i]);
+//                break;
+//            }
+//            if(arr[i]<0 && arr[i-1]<0){
 //                System.out.println(arr[i-1]+" "+arr[i]);
 //                break;
 //            }

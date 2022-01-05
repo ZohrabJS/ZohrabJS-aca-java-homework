@@ -51,22 +51,210 @@ public class DAY9 {
 //        }
 
         //Task 3
-        System.out.println("Input size");
-        int n = scanner.nextInt();
-        int[][] arr = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                arr[i][j] = scanner.nextInt();
-            }
-        }
-        boolean symmetric=true;
-        for (int i = 0; i < n; i++) {
-            for (int j = i+1; j < n; j++) {
-                if()
-            }
+//        System.out.println("Input size");
+//        int n = scanner.nextInt();
+//        int[][] arr = new int[n][n];
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                arr[i][j] = scanner.nextInt();
+//            }
+//        }
+//        boolean symmetric=true;
+//        for (int i = 0; i < n; i++) {
+//            for (int j = i; j < n; j++) {
+//                if(arr[i][j]!=arr[j][i]){
+//                    symmetric=false;
+//                    break;
+//                }
+//            }
+//        }
+//        if (symmetric){
+//            System.out.println("YES");
+//        }
+//        else{
+//            System.out.println("NO");
+//        }
 
-        }
+        //Task 4
+//        System.out.println("Input n");
+//        int n= scanner.nextInt();;
+//        System.out.println("Input m");
+//        int m= scanner.nextInt();
+//        int[][] arr=new int[n][m];
+//        for (int i = 0; i <n ; i++) {
+//            for (int j = 0; j <m ; j++) {
+//                arr[i][j]= scanner.nextInt();
+//            }
+//        }
+//        int sum=0;
+//        int maxSum=0;
+//        int sumIndex=0;
+//        for (int i = 0; i <n ; i++) {
+//            sum=0;
+//            for (int j = 0; j < m; j++) {
+//                sum+=arr[i][j];
+//            }
+//            if (sum>maxSum){
+//                maxSum=sum;
+//                sumIndex=i;
+//            }
+//        }
+//        System.out.println("Max is "+maxSum+" Line is "+sumIndex);
 
+        //Task 5
+//        System.out.println("Input n");
+//        int n = scanner.nextInt();
+//        System.out.println("Input m");
+//        int m = scanner.nextInt();
+//        int[][] arr = new int[n][m];
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < m; j++) {
+//                arr[i][j] = scanner.nextInt();
+//            }
+//        }
+//        int max = 0;
+//        int maxI = 0;
+//        int maxJ = 0;
+//        for (int i = 0; i < n; i++) {
+//
+//            for (int j = 0; j < m; j++) {
+//                if (max<arr[i][j]){
+//                    max=arr[i][j];
+//                    maxI=i;
+//                    maxJ=j;
+//                }
+//            }
+//
+//        }
+//        System.out.println("Max is " + max  + " row is " + maxI+" colum is "+maxJ );
 
+        //Task 6
+//        System.out.println("Input n");
+//        int n = scanner.nextInt();
+//        System.out.println("Input m");
+//        int m = scanner.nextInt();
+//        int[][] arr = new int[n][m];
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < m; j++) {
+//                arr[i][j] = scanner.nextInt();
+//            }
+//        }
+//        int max = 0;
+//        int maxI = 0;
+//        int sum=0;
+//        int realMax=0;
+//        int realSum=0;
+//        for (int i = 0; i < n; i++) {
+//            sum=0;
+//            for (int j = 0; j < m; j++) {
+//                sum+=arr[i][j];
+//                if (max<arr[i][j]){
+//                    max=arr[i][j];
+//                }
+//            }
+//            if (realMax<max || (realMax==max && sum>realSum) ){
+//                realMax=max;
+//                realSum=sum;
+//                maxI=i;
+//            }
+//        }
+//        System.out.println("Max is " + realMax  + " row is " + maxI );
+
+        //Task 8
+//        System.out.println("Input size");
+//        int n= scanner.nextInt();
+//        int[][]arr1=new int[n][n];
+//        int[][]arr2=new int[n][n];
+//        System.out.println("Input arr1");
+//        for (int i = 0; i <n ; i++) {
+//            for (int j = 0; j <n ; j++) {
+//                arr1[i][j]= scanner.nextInt();
+//            }
+//        }
+//        System.out.println("Input arr2");
+//        for (int i = 0; i <n ; i++) {
+//            for (int j = 0; j <n ; j++) {
+//                arr2[i][j]= scanner.nextInt();
+//            }
+//        }
+//        System.out.println("Result");
+//
+//        for (int i = 0; i <n ; i++) {
+//            for (int j = 0; j <n ; j++) {
+//                System.out.print(arr1[i][j]+arr2[i][j]+ " ");
+//            }
+//            System.out.println();
+//        }
+        //Task 9
+//        System.out.println("Input N");
+//        int n= scanner.nextInt();
+//        int[][] arr=new int[n][n];
+//        int i=0;
+//        for (int l = 0; l <=n ; l+=2) {
+//
+//            for (int j = l; j <n-l; j++) {
+//               if (l==0){
+//                   arr[l][j]=1;
+//               }
+//               else {
+//                   arr[l][j] = 1;
+//                   arr[l][j-1]=1;
+//               }
+//            }
+//           i=l;
+//            for (int j = n-l-1 ; i<n-l-1 ; i++) {
+//                arr[i][j]=1;
+//            }
+//            for (int j =i; j >l ; j--) {
+//                arr[i][j]=1;
+//            }
+//            for (int j = l; i>1+l ; i--) {
+//                arr[i][j]=1;
+//            }
+//        }
+//        for (int k = 0; k <n ; k++) {
+//            for (int j = 0; j <n ; j++) {
+//                System.out.print(arr[k][j]+" ");
+//
+//            }
+//            System.out.println();
+//        }
+
+        //Task10
+//        System.out.println("Input N");
+//        int size= scanner.nextInt();
+//        int n=size*2+1;
+//        int[][] arr=new int[n][n];
+//        int k=0;
+//        int i=0;
+//        for (int l = 0; l <size ;l++) {
+//            for (int j = l; j <n-l ; j++) {
+//                arr[l][j]=k;
+//                k++;
+//            }
+//            i++;
+//            for (int j = n-l-1; i <n-l-1 ; i++) {
+//                arr[i][j]=k;
+//                k++;
+//            }
+//            for (int j = n-l-1; j >=0+l ; j--) {
+//                arr[i][j]=k;
+//                k++;
+//            }
+//            i--;
+//            for (int j =l ; i >l ; i--) {
+//                arr[i][j]=k;
+//                k++;
+//            }
+//
+//        }
+//        arr[size][size]=k;
+//        for (int l = 0; l <n ; l++) {
+//            for (int j = 0; j <n ; j++) {
+//                System.out.print(arr[l][j]+" ");
+//
+//            }
+//            System.out.println();
+//        }
     }
 }
