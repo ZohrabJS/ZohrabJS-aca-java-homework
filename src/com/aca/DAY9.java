@@ -221,40 +221,39 @@ public class DAY9 {
 //        }
 
         //Task10
-//        System.out.println("Input N");
-//        int size= scanner.nextInt();
-//        int n=size*2+1;
-//        int[][] arr=new int[n][n];
-//        int k=0;
-//        int i=0;
-//        for (int l = 0; l <size ;l++) {
-//            for (int j = l; j <n-l ; j++) {
-//                arr[l][j]=k;
-//                k++;
-//            }
-//            i++;
-//            for (int j = n-l-1; i <n-l-1 ; i++) {
-//                arr[i][j]=k;
-//                k++;
-//            }
-//            for (int j = n-l-1; j >=0+l ; j--) {
-//                arr[i][j]=k;
-//                k++;
-//            }
-//            i--;
-//            for (int j =l ; i >l ; i--) {
-//                arr[i][j]=k;
-//                k++;
-//            }
-//
-//        }
-//        arr[size][size]=k;
-//        for (int l = 0; l <n ; l++) {
-//            for (int j = 0; j <n ; j++) {
-//                System.out.print(arr[l][j]+" ");
-//
-//            }
-//            System.out.println();
-//        }
+        System.out.println("Input N");
+        int size = scanner.nextInt();
+        int n = size * 2 + 1;
+        int[][] arr = new int[n][n];
+        int k = 0;
+        int i = 0;
+        for (int l = 0; l < size; l++) {
+            for (int j = l; j < n - l; j++) {
+                arr[l][j] = k;
+                k++;
+            }
+            i++;
+            for (int j = n - l - 1; i < n - l - 1; i++) {
+                arr[i][j] = k;
+                k++;
+            }
+            for (int j = n - l - 1; j >= 0 + l; j--) {
+                arr[i][j] = k;
+                k++;
+            }
+            i--;
+            for (int j = l; i > l; i--) {
+                arr[i][j] = k;
+                k++;
+            }
+
+        }
+        arr[size][size] = k;
+        for (int l = 0; l < n; l++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(arr[l][j] + " ");
+            }
+            System.out.println();
+        }
     }
 }
