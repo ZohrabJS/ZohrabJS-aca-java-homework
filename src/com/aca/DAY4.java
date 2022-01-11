@@ -1,6 +1,8 @@
 package com.aca;
+
 import java.util.Scanner;
 import java.util.Random;
+
 public class DAY4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -46,23 +48,50 @@ public class DAY4 {
          */
         //Task 5
 
-        System.out.println("Input number 1");
-        int n1=scanner.nextInt();
-        System.out.println("Input number 2");
-        int n2= scanner.nextInt();
-        System.out.println("Input number 3");
-        int n3= scanner.nextInt();
-        int max=n1;
-        if(max<n2){
-            max=n2;
-        }
-        if(max<n3){
-            max=n3;
-        }
-        System.out.println("Max number - "+max);
+//        System.out.println("Input number 1");
+//        int n1=scanner.nextInt();
+//        System.out.println("Input number 2");
+//        int n2= scanner.nextInt();
+//        System.out.println("Input number 3");
+//        int n3= scanner.nextInt();
+//        int max=n1;
+//        if(max<n2){
+//            max=n2;
+//        }
+//        if(max<n3){
+//            max=n3;
+//        }
+//        System.out.println("Max number - "+max);
 
         //Task 6
-        //Task 7
 
+        //Task 7
+        System.out.println("Input number 1 to 7");
+        int day = scanner.nextInt();
+        switch (day) {
+            case 1:
+                System.out.println("Sunday");
+                break;
+            case 2:
+                System.out.println("Monday");
+                break;
+            case 3:
+                System.out.println("Tuesday");
+                break;
+            case 4:
+                System.out.println("Wednes");
+                break;
+            case 5:
+                System.out.println("Sunday");
+                break;
+            case 6:
+                System.out.println("Sunday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+
+
+        }
     }
 }
